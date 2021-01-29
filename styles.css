@@ -1,0 +1,14 @@
+h1 {
+    background-color: azure;
+}
+
+body {
+    text-align: center;
+
+}
+
+table {
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: lightgray;
+}
