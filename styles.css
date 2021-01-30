@@ -4,11 +4,32 @@ h1 {
 
 body {
     text-align: center;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
 
 }
 
 table {
-    border: 2px solid black;
     margin: 0 auto;
+    padding: 15px;
     background-color: lightgray;
+    
+}
+
+.code {
+    background-color: antiquewhite;
+    font-family: monospace;
+}
+
+thead {
+    font-size: larger;
+    background-color: darkslategray;
+    color: whitesmoke
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
 }
